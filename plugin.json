@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-recent-cards",
-	"name": "Recent Cards plugin for NodeBB's Persona Theme",
-	"description": "Add lavender-style cards of recent topics to Persona's category homepage",
-	"url": "https://github.com/NodeBB/nodebb-plugin-recent-cards",
+	"id": "nodebb-plugin-splash-recent-posts",
+	"name": "Recent posts plugin for NodeBB's Splash Theme",
+	"description": "Add recent posts to the NodeBB Splash theme's category homepage",
+	"url": "https://github.com/zknicker/nodebb-plugin-splash-recent-posts",
 	"library": "./library.js",
 	"hooks": [
 		{
@@ -19,13 +19,10 @@
 		"static": "./static"
 	},
 	"less": [
-		"static/style.less"
 	],
 	"css": [
-		"static/bxslider/jquery.bxslider.css"
 	],
 	"scripts": [
-		"static/bxslider/jquery.bxslider.min.js",
 		"static/lib/main.js"
 	],
 	"templates": "static/templates"

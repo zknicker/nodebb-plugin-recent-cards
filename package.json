@@ -1,26 +1,26 @@
 {
-  "name": "nodebb-plugin-recent-cards",
-  "version": "0.2.3",
-  "description": "Add lavender-style cards of recent topics to Persona's category homepage",
+  "name": "nodebb-plugin-splash-recent-posts",
+  "version": "0.1.0",
+  "description": "Add recent posts to the NodeBB Splash theme's category homepage",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-plugin-recent-cards"
+    "url": "https://github.com/zknicker/nodebb-plugin-splash-recent-posts"
   },
   "keywords": [
     "nodebb",
     "plugin",
     "recent",
-    "cards",
-    "persona"
+    "posts",
+    "splash"
   ],
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "zknicker",
+    "email": "hello@zachknickerbocker.com"
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-plugin-recent-cards/issues"
+    "url": "https://github.com/psychobunny/nodebb-plugin-splash-recent-posts/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {

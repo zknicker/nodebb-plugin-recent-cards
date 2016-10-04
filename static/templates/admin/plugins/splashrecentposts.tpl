@@ -1,9 +1,9 @@
 <div class="row">
 	<div class="col-lg-9">
 		<div class="panel panel-default">
-			<div class="panel-heading">Recent Cards</div>
+			<div class="panel-heading">Splash Recent Posts</div>
 			<div class="panel-body">
-				<form role="form" id="recentcards">
+				<form role="form" id="splashrecentposts">
 					<div class="form-group">
 						<label for="title">Title</label>
 						<input type="text" id="title" data-key="title" title="title" class="form-control" placeholder="Recent Topics">
@@ -60,11 +60,11 @@
 <script>
 require(['settings'], function(settings) {
 
-	settings.sync('recentcards', $('#recentcards'));
+	settings.sync('splashrecentposts', $('#splashrecentposts'));
 
 	$('#save').click( function (event) {
-		settings.persist('recentcards', $('#recentcards'), function(){
-			socket.emit('admin.settings.syncRecentCards');
+		settings.persist('splashrecentposts', $('#splashrecentposts'), function(){
+			socket.emit('admin.settings.syncsplashrecentposts');
 			app.alertSuccess('Please restart your forum for changes to fully take effect.');
 		});
 	});

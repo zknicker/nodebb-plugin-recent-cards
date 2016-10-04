@@ -1,4 +1,4 @@
-<form role="form" class="recent-cards">
+<form role="form" class="splashrecentposts">
 	<div class="row">
 		<div class="form-group">
 			<label for="enableCarousel">

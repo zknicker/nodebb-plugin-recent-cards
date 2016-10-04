@@ -1,4 +1,4 @@
-<!-- Recent Cards plugin -->
+<!-- Splash Recent Posts plugin -->
 <!-- IF topics.length -->
 <div class="recent-cards-plugin">
 	<ul class="categories">
